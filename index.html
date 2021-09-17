@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/stylesheet.css">
-    
+
     <title>Find me!</title>
 </head>
+
 <body>
     <container>
-    <header>
-        <h1> WHERE IN THE WORLD ARE YOU?</h1> 
-    </header>
-    <P>Check on the button to find your coordinates in Lat/Long</P>
-    <button onclick="getLocation()">Show Position</button>
-    <p id="demo"></p>
-    
-    
- </container> 
- <script src="./assets/js/script.js"></script>  
+        <header>
+            <h1> WHERE IN THE WORLD ARE YOU?</h1>
+        </header>
+        <h3>Check on the button to find your coordinates in Latitude/Longitude</h3>
+        <div class="center" id="info">
+            <button onclick="getLocation()">Show Position</button>
+            <p id="demo"></p>
+        </div>
+
+
+
+    </container>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
