@@ -5,7 +5,9 @@ A javaScript app that shows user's position in Latitude and Longitude
 User Story
 
 AS a lost person lost with no GPS
+
 I WANT to know my location
+
 SO THAT I can be found if lost
 
 Acceptance Criteria
