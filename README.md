@@ -6,14 +6,18 @@ User Story
 
 AS a lost person lost with no GPS
 I WANT to know my location
-SO THAT I can ask someone to PLEASE FIND ME!!
+SO THAT I can be found if lost
 
 Acceptance Criteria
 
-GIVEN I don't know where I am
+GIVEN I want to find my location in lattitude/longitude
+
 WHEN I open the app
+
 THEN the app renders on the page
+
 WHEN I press "Show Position
+
 THEN I am presented with my geolocation in Lattitude and Longitude
 
 
